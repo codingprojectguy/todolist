@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "engines": {
-    "node": "v20.18.2"
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "live-server": "live-server --ignore=./db.json .",
