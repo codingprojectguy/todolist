@@ -1,0 +1,51 @@
+body{
+    background-color: antiquewhite;
+}
+
+.container{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-flow: column wrap;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+.formInput{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #2e86c1;
+
+}
+.todo__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button {
+    transition-duration: 0.4s;
+    border: 2px solid #04AA6D;
+    background-color: #abebc6;
+    padding: 10px 24px;
+    border-radius: 8px;
+    margin-left: 30px;
+  }
+  
+  .button:hover {
+    background-color: #04AA6D; /* Green */
+    color: white;
+  }
+  .list_font {
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+  }
+
+li{
+    margin-bottom: 20px;
+  }
+
+  .todo__delete-btn{
+    margin-left: 20px;
+  }
