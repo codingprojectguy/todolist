@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "20.16.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "live-server": "live-server --ignore=./db.json .",
     "json-server": "npx json-server db.json",
-    "start": "npm run json-server & npm run live-server"
+    "start": "npm run json-server & npm run live-server",
+     "deploy": "json-server --watch db.json --port 8080"
   },
   "author": "",
   "license": "ISC",
